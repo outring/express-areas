@@ -1,0 +1,22 @@
+{
+    "name": "express-areas",
+    "version": "0.0.1",
+    "description": "Areas pattern implementation for express",
+    "author": {
+        "name": "Vasya Aksyonov",
+        "email": "outring@gmail.com"
+    },
+    "main": "index",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/outring/express-areas.git"
+    },
+    "keywords": [
+        "express"
+    ],
+    "dependencies": {
+    },
+    "devDependencies": {
+
+    }
+}
