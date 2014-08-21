@@ -1,6 +1,6 @@
 {
     "name": "express-areas",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Areas pattern implementation for express",
     "author": {
         "name": "Vasya Aksyonov",

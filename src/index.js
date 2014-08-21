@@ -4,7 +4,7 @@ var path = require("path");
 function registerAreas(app, areasPath, areas) {
     var loadedAreas = areas.map(function (area) {
         var areaPath = path.join(areasPath, area);
-        var definitionPath = areaPath.join(areaPath, "index.js");
+        var definitionPath = path.join(areaPath, "index.js");
         return {
             path: areaPath,
             definition: fs.existsSync(definitionPath) ? require(definitionPath) : {}
